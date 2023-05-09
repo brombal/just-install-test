@@ -1,2 +1,4 @@
-test:
-	echo "Hello, world!"
+set shell := ["node", "-e"]
+
+@test:
+	console.log("Hello, world!")
