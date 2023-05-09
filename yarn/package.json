@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/brombal/just-install-test#readme",
   "dependencies": {
-    "just-install": "^1.0.11"
+    "just-install": "https://github.com/brombal/just-install#feature/windows"
   }
 }
