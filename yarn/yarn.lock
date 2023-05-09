@@ -97,20 +97,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "just-install-test@workspace:."
   dependencies:
-    just-install: "https://github.com/brombal/just-install#feature/windows"
+    just-install: 1.1.0-beta.0
   languageName: unknown
   linkType: soft
 
-"just-install@https://github.com/brombal/just-install#feature/windows":
+"just-install@npm:1.1.0-beta.0":
   version: 1.1.0-beta.0
-  resolution: "just-install@https://github.com/brombal/just-install.git#commit=61ce7084361cbefaf4607dedf67e34127da85ae0"
+  resolution: "just-install@npm:1.1.0-beta.0"
   dependencies:
     extract-zip: ^2.0.1
     undici: ^5.22.0
   bin:
-    just: ./bin/just.js
-    just-install: ./install.js
-  checksum: ff5c27d738edb0d630860498f9576dfc9ced63c70a75c78b3724df246def20d194665b2a3c0dee72b9ea1d62597b7772cc9a1bcbd0a526155bc16ecbce69a3cf
+    just: bin/just.js
+    just-install: install.js
+  checksum: d6f127bc8f8daa7281d7993fa99319e484cc74467d222e6963f22136ccaba23b16da3f4a5ad0019b65c7722687efe79c12296c221c7d6d0b903ed8dedb84adf2
   languageName: node
   linkType: hard
 
