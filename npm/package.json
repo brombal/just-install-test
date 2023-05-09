@@ -1,0 +1,22 @@
+{
+  "name": "just-install-test",
+  "version": "1.0.0",
+  "description": "A minimal repo for testing/sandboxing just-install",
+  "main": "index.js",
+  "scripts": {
+    "test": "just test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brombal/just-install-test.git"
+  },
+  "author": "Alex Brombal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brombal/just-install-test/issues"
+  },
+  "homepage": "https://github.com/brombal/just-install-test#readme",
+  "dependencies": {
+    "just-install": "^1.0.11"
+  }
+}
